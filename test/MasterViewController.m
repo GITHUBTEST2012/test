@@ -34,7 +34,6 @@
 
     UILabel *label = [[UILabel alloc] init];
     label.text = @"test";
-    [label ];
     
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
